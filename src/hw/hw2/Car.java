@@ -1,10 +1,10 @@
 package hw.hw2;
 
 public class Car {
-   private String color;
-   private Integer speed;
+    private String color;
+    private Integer speed;
 
-//конструктор по умолчанию
+    //конструктор по умолчанию
     public Car() {
     }
 
@@ -16,7 +16,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Цвет:"+color+", Скорость:"+speed;
+        return "Цвет:" + color + ", Скорость:" + speed;
     }
 
 
