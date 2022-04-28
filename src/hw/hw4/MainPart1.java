@@ -8,9 +8,14 @@ public class MainPart1 {
         Part1.task2();
         Part1.task3();
         Part1.task4();
-        int [] array1 = new int[]{6,35,4,6,1};
+        int[] array1 = new int[]{6, 35, 4, 6, 1};
         Part1.task5(array1);
         Part1.task6(array1);
+
+        Part2.task1();
+        Part2.task2();
+        Part2.task3();
+        Part2.task4();
 
     }
 }
