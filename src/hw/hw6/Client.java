@@ -13,4 +13,9 @@ public class Client extends Human {
     public String allInfo() {
         return "Имя клиента:"+getFirstName()+"\nФамилия клиента:"+getLastName()+"\nБанк:"+bankName;
     }
+
+    @Override
+    public void transaction() {
+
+    }
 }

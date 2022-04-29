@@ -1,6 +1,6 @@
 package hw.hw6;
 
-public abstract class Human {
+public abstract class Human implements Transable {
 
     private String lastName;
     private String firstName;
